@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Student Management System</h1>
+
+    <!-- REGISTER -->
+    <div class="card">
+        <h2>Register</h2>
+        <input type="text" id="regName" placeholder="Name">
+        <input type="password" id="regPassword" placeholder="Password">
+        <input type="text" id="college" placeholder="College">
+        <input type="text" id="branch" placeholder="Branch">
+        <input type="number" id="age" placeholder="Age">
+        <input type="number" id="marks" placeholder="Marks">
+        <button onclick="register()">Register</button>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="card">
+        <h2>Login</h2>
+        <input type="text" id="loginName" placeholder="Name">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- USER ACTIONS -->
+    <div class="card">
+        <h2>User Actions</h2>
+        <input type="number" id="rollno" placeholder="Your Roll No">
+        <button onclick="viewAll()">View Students</button>
+        <button onclick="deleteStudent()">Delete Me</button>
+    </div>
+
+    <!-- ADMIN ACTIONS -->
+    <div class="card">
+        <h2>Admin Actions</h2>
+        <input type="text" id="adminUser" placeholder="Username">
+        <button onclick="makeAdmin()">Make Admin</button>
+        <button onclick="removeAdmin()">Remove Admin</button>
+    </div>
+
+    <div class="card">
+        <h2>Output</h2>
+        <pre id="output"></pre>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
