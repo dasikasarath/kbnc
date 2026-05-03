@@ -42,7 +42,7 @@ HTML, CSS, JavaScript (Frontend)
 
 
 Future Improvements
-Refresh Token implementation
-Redis caching for token blacklist
-Docker support
-API documentation using Swagger
+1)Refresh Token implementation
+2)Redis caching for token blacklist
+3)Docker support
+4)API documentation using Swagger
